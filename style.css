@@ -1,0 +1,150 @@
+/*
+Theme Name:     Twenty Eleven Child
+Theme URI:      http: //example.com/
+Description:    Child theme for the Twenty Eleven theme 
+Author:         Your Name
+Author URI:     http: //your-site.com/
+Template:       twentyeleven
+Version:        0.1.0
+*/
+@import url("../twentyeleven/style.css");
+/***custom****/
+#page>div>a {
+margin-bottom:0;	
+display: none;
+}
+.metaslider {
+clear:both;
+max-width: 100% !important;}
+#s {
+	display: none;
+}
+span {
+    font-family: segoe Print,serif;
+    font-style: italic;
+}
+body.custom-background {
+    background-color: steelblue !important;}
+#post
+{
+    padding: .5em 0 0;
+}
+#colophon>div>a
+{
+margin-right:30px;
+}
+html {
+	margin-top: 34px !important;
+}
+#branding {
+    background-color: white;
+}
+.hfeed #access li:hover, .hfeed #access li:focus{
+background: blue !important;
+color:white !important;
+}
+
+.hfeed #access li>a>ul{
+background:blue !important;
+}
+.hfeed #access li:hover>a, .hfeed #access li:focus>a{
+background: blue !important;
+color:white !important;
+}
+#main {
+    clear: both;
+    padding: 1.650em 0 0;
+    background-color: white;
+}
+#site-generator {
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 12px;
+    line-height: 2.2em;
+    padding: 2.2em 0.5em;
+    text-align: center;
+    background-color: white;
+}
+
+#branding img {
+	height: auto;
+	display: none;
+	width: 100%;
+}
+#primary {
+    float: left;
+    margin: 0 -26.4% 0 0;
+    width: 100%;
+    background-color: white;
+}
+.home.page.page-id-10.page-template-default.logged-in.admin-bar.custom-background.single-author.singular.two-column.right-sidebar.customize-support {
+    background-color: white;
+}
+
+#supplementary {
+	border-top: 1px solid #ddd;
+	padding: 1.625em 7.6%;
+	overflow: hidden;
+	display:none;
+}
+.singular.page .hentry {
+	padding: 0.5em 0 0;
+}
+
+body.custom-background {
+    background-color: #828282;
+ }
+#access {
+    background: #222;
+    background: -moz-linear-gradient(#252525, #0a0a0a);
+    background: -o-linear-gradient(#252525, #0a0a0a);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a));
+    background: -webkit-linear-gradient(#252525, #0a0a0a);
+    clear: both;
+    display: block;
+    float: left;
+    margin: 0 auto 1px;
+    width: 100%;
+}
+post-10 {
+    width: 106%;
+    padding-right: 0%;
+}
+#access div {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 80%;
+}
+#access ul.menu > li {
+ display: inline-block;
+float: none !important;
+padding: 0 10px;
+ margin-right:0 !important;
+text-align: center;
+}
+#access ul ul{
+top:4.33em;
+}
+#access a{
+padding: 0 10px;
+font-size:16px;
+}
+#access li {
+    float: left;
+    margin-right: 2em;
+    position: relative;
+}
+#page {
+	margin: 0em auto;
+	max-width: 1320px;
+}
+body.custom-background {
+    background-color: #828282;
+/*    width: 100%;*/
+padding-left: 0;
+}
+strong {
+    font-weight: bold;
+    font-size: 17px;
+}
